@@ -13,6 +13,7 @@ public/css/vendors/
 public/js/vendors
 app/views/*/.compiled
 app/views/.compiled
+mongodbdata
 
 *.log
 *.csv
