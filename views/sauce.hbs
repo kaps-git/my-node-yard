@@ -1,0 +1,12 @@
+<h1>Sauce Information Page</h1>
+{{! Check if key is passed, then only show below }}
+	{{#if key}}
+		<p><b>Your Sauce Key is : {{key}}</b></p>
+	{{/if}}
+
+{{! Check if data is passed, then only show below }}
+	{{#if data}}
+		{{#each data}}
+    		<b>{{this.user}}</b> has key value <b>{{this.key}}</b><br>
+		{{/each}}
+	{{/if}}
